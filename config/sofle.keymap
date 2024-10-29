@@ -18,7 +18,9 @@
             label = "PASSPORT";
         };
     };
-
+&led_strip {
+    chain-length = <29>;
+};
     keymap {
         compatible = "zmk,keymap";
 
